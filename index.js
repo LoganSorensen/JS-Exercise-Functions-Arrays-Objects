@@ -92,14 +92,12 @@ function makeSmartPerson(name) {
       return num1 + num2;
     },
     speak: function(){
-      return "Hello my name is" + makeSmartPerson.name;
+      return "Hello my name is " + name;
     }
   }
   return smartObj;
 }
-
-
-
+makeSmartPerson("Sam");
 
 
 /*
