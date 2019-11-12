@@ -190,7 +190,11 @@ function getCarInfoByIndex(inventory, index) {
  * it will return `This is a Lincoln Town Car`.
 */
 function getLastCarInfo(/* code here */) {
-  /* code here */
+  // const inventory = []{
+
+  // }
+
+  // return `This is a ${car_make} ${car_model}`;
 }
 
 /**
@@ -283,9 +287,9 @@ function getGermanCars(/* code here */) {
  *   return num * 2
  * }
 */
-const sum = null; // code here!
-const addFive = null; // code here!
-const argTimesTwo = null; // code here!
+const sum = (a,b) => {return a + b;}; // code here!
+const addFive = (num) => {return num + 5;}; // code here!
+const argTimesTwo = (num) => {return num * 2;}; // code here!
 
 /**
  * ### Challenge `carMaker`
