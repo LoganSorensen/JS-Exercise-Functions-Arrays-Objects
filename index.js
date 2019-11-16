@@ -65,7 +65,7 @@ function getName(name) {
   const nameObj = {
     name: name
   }
-  return `Hello, my name is ${nameObj.name}`;
+  return `Hello, my name is ${name.name}`;
 }
 
 /**
@@ -304,8 +304,14 @@ const argTimesTwo = (num) => {return num * 2}; // code here!
  *         (1) causes the odometer in the object to be increased by the distance,
  *         (2) returns the updated value of the `odometer`.
 */
-function carMaker(/* code here */) {
-  /* code here */
+function carMaker(num) {
+  const makerObj = {
+    odometer: num,
+    drive: function(distance) {
+
+    }
+  }
+  return makerObj;
 }
 
 /// ////// END OF CHALLENGE /////////
